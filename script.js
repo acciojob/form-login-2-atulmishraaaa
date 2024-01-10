@@ -9,7 +9,7 @@
 	const email =
 		document.querySelector("#email").value;
 
-	const message = `First Name:${firstName}\nLast Name:${lastName}\nPhone Number:${number}\nEmail ID:${email}`;
+	const message = `First Name: ${firstName}\nLast Name: ${lastName}\nPhone Number: ${number}\nEmail ID: ${email}`;
 		
      alert(message);
 	}
