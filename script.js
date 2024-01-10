@@ -1,7 +1,5 @@
 //your JS code here. If required.
-document.querySelector("#myForm").addEventListner("submit",function(event){
-	event.preventDefault();
-
+    function displayDetails() {
 	const firstName =
 		document.querySelector("#firstName").value;
 	const lastName =
@@ -13,7 +11,8 @@ document.querySelector("#myForm").addEventListner("submit",function(event){
 
 	const message = `First Name:${firstName}\nLast Name:${lastName}
 	\nPhone Number:${number}\nEmail ID:${email}`;
-
-	alert(message);
+		
+     alert(message);
+	}
 	
 })
